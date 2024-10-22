@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|e:\\ttlt.net\\btl.net\\studentgrademanagementapplication\\forms\\menustudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\menustudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\menustudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\menustudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\menuteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\menuteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T20:19:59.931Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.cs [Design]",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Profile.cs",
+              "RelativeDocumentMoniker": "Forms\\Profile.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Profile.cs [Design]",
+              "RelativeToolTip": "Forms\\Profile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:28:43.159Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\Home.Designer.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Home.Designer.cs",
+              "RelativeToolTip": "Forms\\Home.Designer.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:46:22.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.cs",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Home.cs",
+              "RelativeDocumentMoniker": "Forms\\Home.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Home.cs",
+              "RelativeToolTip": "Forms\\Home.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:46:17.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Home.cs",
+              "RelativeDocumentMoniker": "Forms\\Home.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Home.cs [Design]",
+              "RelativeToolTip": "Forms\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:40:33.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.cs",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\login.cs",
+              "RelativeDocumentMoniker": "Forms\\login.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\login.cs",
+              "RelativeToolTip": "Forms\\login.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwC8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:22:51.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuStudent.cs",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\MenuStudent.cs",
+              "RelativeDocumentMoniker": "Forms\\MenuStudent.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\MenuStudent.cs",
+              "RelativeToolTip": "Forms\\MenuStudent.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:16:39.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuStudent.cs [Design]",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\MenuStudent.cs",
+              "RelativeDocumentMoniker": "Forms\\MenuStudent.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\MenuStudent.cs [Design]",
+              "RelativeToolTip": "Forms\\MenuStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:48:41.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.Designer.cs",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\login.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\login.Designer.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\login.Designer.cs",
+              "RelativeToolTip": "Forms\\login.Designer.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAnwLwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T21:33:14.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuTeacher.cs [Design]",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\MenuTeacher.cs",
+              "RelativeDocumentMoniker": "Forms\\MenuTeacher.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\MenuTeacher.cs [Design]",
+              "RelativeToolTip": "Forms\\MenuTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:55:23.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\login.cs",
+              "RelativeDocumentMoniker": "Forms\\login.cs",
+              "ToolTip": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\login.cs [Design]",
+              "RelativeToolTip": "Forms\\login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:26:54.179Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 54,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 244,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

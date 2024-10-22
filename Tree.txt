@@ -1,0 +1,23 @@
+SchoolManagementApp/
+├── Forms/
+│   ├── MainForm.cs
+│   ├── MainForm.Designer.cs 			// Form chính của ứng dụng.
+  				
+│   ├── StudentForm.cs
+│   ├── StudentForm.Designer.cs  		// Form để quản lý học sinh.
+
+│   ├── GradeForm.cs
+│   ├── GradeForm.Designer.cs			// Form để quản lý điểm số.
+├── Models/
+│   ├── Student.cs				// Model đại diện cho học sinh.
+│   ├── Grade.cs				// Model đại diện cho điểm số.
+│   └── Subject.cs				// Model đại diện cho môn học.
+
+├── Program.cs					
+
+├── App.config					// File cấu hình cho ứng dụng.
+
+└── Resources/					// Chứa các tái nguyên khác
+    ├── images/					// Hình
+    ├── icons/					// Biểu tương
+    └── strings/				// Chuỗi văn bản

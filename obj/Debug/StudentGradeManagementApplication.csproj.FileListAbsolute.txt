@@ -1,0 +1,16 @@
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\bin\Debug\StudentGradeManagementApplication.exe.config
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\bin\Debug\StudentGradeManagementApplication.exe
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\bin\Debug\StudentGradeManagementApplication.pdb
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\bin\Debug\Guna.UI2.dll
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.csproj.AssemblyReference.cache
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.login.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Properties.Resources.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.csproj.GenerateResource.cache
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.csproj.CoreCompileInputs.cache
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentG.1C878A7E.Up2Date
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.exe
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.pdb
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.MenuStudent.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Home.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.MenuTeacher.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Profile.resources
