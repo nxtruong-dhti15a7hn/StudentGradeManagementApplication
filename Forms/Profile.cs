@@ -16,5 +16,7 @@ namespace StudentGradeManagementApplication.Forms
         {
             InitializeComponent();
         }
+
+       
     }
 }

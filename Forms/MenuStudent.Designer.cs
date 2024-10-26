@@ -119,6 +119,7 @@
             this.guna2ImageButton2.Size = new System.Drawing.Size(77, 77);
             this.guna2ImageButton2.TabIndex = 2;
             this.guna2ImageButton2.UseTransparentBackground = true;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
             // guna2ImageButton1
             // 

@@ -17,7 +17,7 @@ namespace StudentGradeManagementApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuStudent());
+            Application.Run(new login());
         }
     }
 }

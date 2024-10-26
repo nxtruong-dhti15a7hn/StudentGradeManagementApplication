@@ -54,5 +54,10 @@ namespace StudentGradeManagementApplication.Forms
             this.Close();
            
         }
+
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Transcript());
+        }
     }
 }

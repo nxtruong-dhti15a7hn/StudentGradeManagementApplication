@@ -14,3 +14,4 @@ E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeMana
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Home.resources
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.MenuTeacher.resources
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Profile.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Transcript.resources
