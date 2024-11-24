@@ -47,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Grade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grade.Designer.cs">
+      <DependentUpon>Grade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HomeTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HomeTeacher.Designer.cs">
+      <DependentUpon>HomeTeacher.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\login.cs">
       <SubType>Form</SubType>
@@ -71,11 +83,35 @@
     <Compile Include="Forms\MenuTeacher.Designer.cs">
       <DependentUpon>MenuTeacher.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Profile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProfileTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProfileTeacher.Designer.cs">
+      <DependentUpon>ProfileTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentManagement.Designer.cs">
+      <DependentUpon>StudentManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubjectManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SubjectManagement.Designer.cs">
+      <DependentUpon>SubjectManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Transcript.cs">
       <SubType>Form</SubType>
@@ -83,10 +119,28 @@
     <Compile Include="Forms\Transcript.Designer.cs">
       <DependentUpon>Transcript.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Connect.cs" />
+    <Compile Include="Models\DangNhap.cs" />
+    <Compile Include="Models\DataConfig.cs" />
+    <Compile Include="Models\DiemGV.cs" />
+    <Compile Include="Models\DiemSV.cs" />
+    <Compile Include="Models\HomeGV.cs" />
+    <Compile Include="Models\HomeSV.cs" />
+    <Compile Include="Models\ProfileGV.cs" />
+    <Compile Include="Models\ProfileSV.cs" />
+    <Compile Include="Models\QLMon.cs" />
+    <Compile Include="Models\QLSinhVien.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Grade.resx">
+      <DependentUpon>Grade.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HomeTeacher.resx">
+      <DependentUpon>HomeTeacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -97,8 +151,20 @@
     <EmbeddedResource Include="Forms\MenuTeacher.resx">
       <DependentUpon>MenuTeacher.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProfileTeacher.resx">
+      <DependentUpon>ProfileTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentManagement.resx">
+      <DependentUpon>StudentManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubjectManagement.resx">
+      <DependentUpon>SubjectManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Transcript.resx">
       <DependentUpon>Transcript.cs</DependentUpon>
@@ -127,7 +193,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Ububox.G2Crack">
@@ -193,6 +259,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-search-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-grade-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-grade-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-groups-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-groups-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__Logo-DH-Kinh-te-Ky-thuat-Cong-nghiep-UNETI.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,13 +12,16 @@ namespace StudentGradeManagementApplication.Forms
 {
     public partial class MenuStudent : Form
     {
-        public MenuStudent()
+        private string studentId;
+        private Form currentChildForm;
+
+        public MenuStudent(string studentId)
         {
             InitializeComponent();
-            openChildForm(new Home());
+            this.studentId = studentId;
+            // Mở form Home với studentId
+            openChildForm(new Home(studentId));
         }
-
-        private Form currentChildForm;
 
         public void openChildForm(Form childForm)
         {
@@ -39,25 +42,37 @@ namespace StudentGradeManagementApplication.Forms
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
-            openChildForm(new Home());
+            openChildForm(new Home(studentId));
         }
 
         private void guna2ImageButton4_Click(object sender, EventArgs e)
         {
-            openChildForm(new Profile());
+            openChildForm(new Profile(studentId));
         }
 
         private void guna2ImageButton3_Click(object sender, EventArgs e)
         {
+            // Hiển thị thông báo xác nhận đăng xuất
+            var result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất?", "Xác nhận đăng xuất", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                // Đóng form hiện tại
+                this.Close();
 
-           
-            this.Close();
-           
+                // Mở lại form đăng nhập
+                login loginForm = new login();
+                loginForm.Show();
+            }
         }
 
         private void guna2ImageButton2_Click(object sender, EventArgs e)
         {
-            openChildForm(new Transcript());
+            openChildForm(new Transcript(studentId));
+        }
+
+        private void LoadStudentInfo(string studentId)
+        {
+            // Hàm để tải thông tin sinh viên dựa trên studentId
         }
     }
 }

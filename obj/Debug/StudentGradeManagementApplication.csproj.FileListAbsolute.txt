@@ -15,3 +15,9 @@ E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeMana
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.MenuTeacher.resources
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Profile.resources
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Transcript.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.HomeTeacher.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Grade.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.ProfileTeacher.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.StudentManagement.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.SubjectManagement.resources
+E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Print.resources

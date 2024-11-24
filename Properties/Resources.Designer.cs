@@ -63,6 +63,36 @@ namespace StudentGradeManagementApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AnyConv_com__Logo_DH_Kinh_te_Ky_thuat_Cong_nghiep_UNETI {
+            get {
+                object obj = ResourceManager.GetObject("AnyConv.com__Logo-DH-Kinh-te-Ky-thuat-Cong-nghiep-UNETI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_book_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-book-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_book_100__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-book-100 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_combo_chart_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-combo-chart-96", resourceCulture);
@@ -123,6 +153,26 @@ namespace StudentGradeManagementApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_grade_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-grade-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_grade_100__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-grade-100 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_home_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-home-96", resourceCulture);
@@ -166,6 +216,26 @@ namespace StudentGradeManagementApplication.Properties {
         internal static System.Drawing.Bitmap icons8_user_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-user-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_user_groups_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-user-groups-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_user_groups_100__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-user-groups-100 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
