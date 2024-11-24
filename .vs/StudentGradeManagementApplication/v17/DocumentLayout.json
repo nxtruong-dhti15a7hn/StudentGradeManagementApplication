@@ -3,24 +3,45 @@
   "WorkspaceRootPath": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\transcript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\transcript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.BangThongKe.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.DiemSv.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.User_Teacher.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.User.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.SinhVien.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.MonHoc.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|e:\\ttlt.net\\btl.net\\studentgrademanagementapplication\\forms\\subjectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.Lop.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.HocKi.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.HeDaoTao.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.GiaoVien.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.DiemSv.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|e:\\ttlt.net\\btl.net\\studentgrademanagementapplication\\forms\\transcript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\transcript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\subjectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\subjectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|e:\\ttlt.net\\btl.net\\studentgrademanagementapplication\\forms\\subjectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\forms\\subjectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6561AFDC-EC70-4BCC-852A-249D943225DE}|StudentGradeManagementApplication.csproj|solutionrelative:forms\\subjectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,7 +60,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,7 +84,107 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.BangThongKe [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.BangThongKe.sql",
+              "ToolTip": "dbo.BangThongKe [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:03:08.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.User_Teacher [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.User_Teacher.sql",
+              "ToolTip": "dbo.User_Teacher [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:03:03.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.User [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.User.sql",
+              "ToolTip": "dbo.User [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:02:58.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.SinhVien [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.SinhVien.sql",
+              "ToolTip": "dbo.SinhVien [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:02:43.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.MonHoc [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.MonHoc.sql",
+              "ToolTip": "dbo.MonHoc [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:02:37.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "dbo.Lop [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.Lop.sql",
+              "ToolTip": "dbo.Lop [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:02:20.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.HocKi [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.HocKi.sql",
+              "ToolTip": "dbo.HocKi [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:02:14.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.HeDaoTao [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.HeDaoTao.sql",
+              "ToolTip": "dbo.HeDaoTao [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:02:06.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.GiaoVien [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.GiaoVien.sql",
+              "ToolTip": "dbo.GiaoVien [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:01:57.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.DiemSv [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.DiemSv.sql",
+              "ToolTip": "dbo.DiemSv [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T17:01:51.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "SubjectManagement.cs",
               "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\SubjectManagement.cs",
               "RelativeDocumentMoniker": "Forms\\SubjectManagement.cs",
@@ -76,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "SubjectManagement.cs [Design]",
               "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\SubjectManagement.cs",
               "RelativeDocumentMoniker": "Forms\\SubjectManagement.cs",
@@ -88,37 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.MonHoc [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.MonHoc.sql",
-              "ToolTip": "dbo.MonHoc [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-24T16:22:19.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.User [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.User.sql",
-              "ToolTip": "dbo.User [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-24T16:22:08.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.DiemSv [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__TTLT.NET_BTL.NET_STUDENTGRADEMANAGEMENTAPPLICATION_BIN_DEBUG_QLDIEM.MDF/True/SqlTable/dbo.DiemSv.sql",
-              "ToolTip": "dbo.DiemSv [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-24T16:09:12.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Transcript.cs",
               "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Transcript.cs",
               "RelativeDocumentMoniker": "Forms\\Transcript.cs",
@@ -131,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Transcript.cs [Design]",
               "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Forms\\Transcript.cs",
               "RelativeDocumentMoniker": "Forms\\Transcript.cs",
@@ -143,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "DiemSV.cs",
               "DocumentMoniker": "E:\\TTLT.NET\\BTL.Net\\StudentGradeManagementApplication\\Models\\DiemSV.cs",
               "RelativeDocumentMoniker": "Models\\DiemSV.cs",
