@@ -68,7 +68,7 @@ namespace StudentGradeManagementApplication.Forms
 
         private void guna2ImageButton3_Click(object sender, EventArgs e)
         {
-            openChildForm(new Grade());
+            openChildForm(new Grade(teacherId));
         }
 
         private void guna2ImageButton4_Click(object sender, EventArgs e)

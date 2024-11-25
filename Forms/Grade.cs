@@ -16,12 +16,14 @@ namespace StudentGradeManagementApplication.Forms
     {
         private Connect dbConnect;
         private DiemGV diemGV;
+        private string maGV;
 
-        public Grade()
+        public Grade(string maGV)
         {
             InitializeComponent();
             this.dbConnect = new Connect();
             this.diemGV = new DiemGV();
+            this.maGV = maGV;
             LoadData();
             LoadComboBoxes();
             cbHK.SelectedIndexChanged += CbHK_SelectedIndexChanged;
@@ -33,7 +35,14 @@ namespace StudentGradeManagementApplication.Forms
 
         private void LoadData(string selectedHK = null, string selectedMon = null, string selectedClass = null, string searchText = null)
         {
-            DataTable dataTable = diemGV.GetGrades(selectedHK, selectedMon, selectedClass, searchText);
+            DataTable dataTable = diemGV.GetGrades(selectedHK, selectedMon, selectedClass, searchText, maGV);
+
+            // Debugging: Log the data being fetched
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine($"MaSV: {row["MaSV"]}, MaMon: {row["MaMon"]}, MaHK: {row["MaHK"]}, DiemTB: {row["DiemTB"]}");
+            }
+
             guna2DataGridView1.DataSource = dataTable;
 
             // Set the display order and header text of the columns
@@ -45,59 +54,76 @@ namespace StudentGradeManagementApplication.Forms
             guna2DataGridView1.Columns["HoVaTen"].HeaderText = "Họ Tên";
             guna2DataGridView1.Columns["MaMon"].DisplayIndex = 3;
             guna2DataGridView1.Columns["MaMon"].HeaderText = "Mã Môn";
-            guna2DataGridView1.Columns["D1_1"].DisplayIndex = 4;
+            guna2DataGridView1.Columns["MaHK"].DisplayIndex = 4;
+            guna2DataGridView1.Columns["MaHK"].HeaderText = "Tên Môn";
+            guna2DataGridView1.Columns["D1_1"].DisplayIndex = 5;
             guna2DataGridView1.Columns["D1_1"].HeaderText = "Điểm hệ số 1";
-            guna2DataGridView1.Columns["D1_2"].DisplayIndex = 5;
+            guna2DataGridView1.Columns["D1_2"].DisplayIndex = 6;
             guna2DataGridView1.Columns["D1_2"].HeaderText = "Điểm hệ số 1";
-            guna2DataGridView1.Columns["D2_1"].DisplayIndex = 6;
+            guna2DataGridView1.Columns["D2_1"].DisplayIndex = 7;
             guna2DataGridView1.Columns["D2_1"].HeaderText = "Điểm hệ số 2";
-            guna2DataGridView1.Columns["D2_2"].DisplayIndex = 7;
+            guna2DataGridView1.Columns["D2_2"].DisplayIndex = 8;
             guna2DataGridView1.Columns["D2_2"].HeaderText = "Điểm hệ số 3";
-            guna2DataGridView1.Columns["DiemTB"].DisplayIndex = 8;
+            guna2DataGridView1.Columns["DiemTB"].DisplayIndex = 9;
             guna2DataGridView1.Columns["DiemTB"].HeaderText = "Điểm trung bình";
         }
 
         private void LoadComboBoxes()
         {
-            using (SqlConnection connection = dbConnect.GetConnection())
+            LoadMonHoc();
+            LoadHocKi();
+            LoadClasses();
+            cbLop.Enabled = cbLop.Items.Count > 0;
+            cbLop.Visible = cbLop.Items.Count > 0;
+        }
+
+        private void LoadClasses()
+        {
+            if (cbMon.SelectedItem is ComboBoxItem selectedMon && cbHK.SelectedItem is ComboBoxItem selectedHK)
             {
-                connection.Open();
+                var lopTable = diemGV.GetLop(maGV, selectedMon.Value);
+                cbLop.Items.Clear();
 
-                // Load cbHK
-                cbHK.Items.Add(new ComboBoxItem("", "")); // Add blank item
-                string queryHK = "SELECT MaHK, TenHK FROM HocKi";
-                SqlCommand commandHK = new SqlCommand(queryHK, connection);
-                SqlDataReader readerHK = commandHK.ExecuteReader();
-                while (readerHK.Read())
+                foreach (DataRow row in lopTable.Rows)
                 {
-                    cbHK.Items.Add(new ComboBoxItem(readerHK["TenHK"].ToString(), readerHK["MaHK"].ToString()));
+                    cbLop.Items.Add(new ComboBoxItem(row["TenLop"].ToString(), row["MaLop"].ToString()));
                 }
-                readerHK.Close();
-                cbHK.SelectedIndex = 0; // Set blank item as default
 
-                // Load cbMon
-                cbMon.Items.Add(new ComboBoxItem("", "")); // Add blank item
-                string queryMon = "SELECT MaMon, TenMon FROM MonHoc";
-                SqlCommand commandMon = new SqlCommand(queryMon, connection);
-                SqlDataReader readerMon = commandMon.ExecuteReader();
-                while (readerMon.Read())
-                {
-                    cbMon.Items.Add(new ComboBoxItem(readerMon["TenMon"].ToString(), readerMon["MaMon"].ToString()));
-                }
-                readerMon.Close();
-                cbMon.SelectedIndex = 0; // Set blank item as default
+                // Ensure the ComboBox is visible and enabled
+                cbLop.Enabled = cbLop.Items.Count > 0;
+                cbLop.Visible = cbLop.Items.Count > 0;
+            }
+        }
 
-                // Load cbClass
-                cbLop.Items.Add(new ComboBoxItem("", "")); // Add blank item
-                string queryClass = "SELECT MaLop, TenLop FROM Lop";
-                SqlCommand commandClass = new SqlCommand(queryClass, connection);
-                SqlDataReader readerClass = commandClass.ExecuteReader();
-                while (readerClass.Read())
+        private void LoadMonHoc()
+        {
+            var monHocTable = diemGV.GetMonHoc(maGV);
+            var monHocSet = new HashSet<string>();
+
+            cbMon.Items.Clear();
+
+            foreach (DataRow row in monHocTable.Rows)
+            {
+                var tenMon = row["TenMon"].ToString();
+                if (!monHocSet.Contains(tenMon))
                 {
-                    cbLop.Items.Add(new ComboBoxItem(readerClass["TenLop"].ToString(), readerClass["MaLop"].ToString()));
+                    monHocSet.Add(tenMon);
+                    cbMon.Items.Add(new ComboBoxItem(tenMon, row["MaMon"].ToString()));
                 }
-                readerClass.Close();
-                cbLop.SelectedIndex = 0; // Set blank item as default
+            }
+        }
+
+        private void LoadHocKi()
+        {
+            if (cbMon.SelectedItem is ComboBoxItem selectedMon)
+            {
+                var hocKiTable = diemGV.GetHocKi(maGV);
+                cbHK.Items.Clear();
+
+                foreach (DataRow row in hocKiTable.Rows)
+                {
+                    cbHK.Items.Add(new ComboBoxItem(row["TenHK"].ToString(), row["MaHK"].ToString()));
+                }
             }
         }
 
@@ -120,12 +146,13 @@ namespace StudentGradeManagementApplication.Forms
 
         private void CbHK_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ReloadData();
+            LoadClasses();
         }
 
         private void CbMon_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ReloadData();
+            LoadHocKi();
+            LoadClasses();
         }
 
         private void CbClass_SelectedIndexChanged(object sender, EventArgs e)

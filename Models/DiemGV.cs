@@ -15,19 +15,21 @@ namespace StudentGradeManagementApplication.Models
 
         public DiemGV()
         {
-            dbConnect = new Connect();
+            this.dbConnect = new Connect();
         }
 
-        public DataTable GetGrades(string selectedHK = null, string selectedMon = null, string selectedClass = null, string searchText = null)
+        public DataTable GetGrades(string selectedHK = null, string selectedMon = null, string selectedClass = null, string searchText = null, string maGV = null)
         {
             using (SqlConnection connection = dbConnect.GetConnection())
             {
                 StringBuilder queryBuilder = new StringBuilder(@"
-                        SELECT DiemSV.MaSV, SinhVien.HoVaTen, DiemSV.MaMon, DiemSV.D1_1, DiemSV.D1_2, DiemSV.D2_1, DiemSV.D2_2 
-                        FROM DiemSV 
-                        JOIN SinhVien ON DiemSV.MaSV = SinhVien.MaSV");
+                            SELECT DiemSV.*, SinhVien.HoVaTen, MonHoc.TenMon 
+                            FROM DiemSV 
+                            JOIN SinhVien ON DiemSV.MaSV = SinhVien.MaSV
+                            JOIN MonHoc ON DiemSV.MaMon = MonHoc.MaMon
+                            JOIN GiaoVien ON MonHoc.MaGV = GiaoVien.MaGV");
 
-                if (!string.IsNullOrEmpty(selectedHK) || !string.IsNullOrEmpty(selectedMon) || !string.IsNullOrEmpty(selectedClass) || !string.IsNullOrEmpty(searchText))
+                if (!string.IsNullOrEmpty(selectedHK) || !string.IsNullOrEmpty(selectedMon) || !string.IsNullOrEmpty(selectedClass) || !string.IsNullOrEmpty(searchText) || !string.IsNullOrEmpty(maGV))
                 {
                     queryBuilder.Append(" WHERE");
                     bool firstCondition = true;
@@ -62,6 +64,15 @@ namespace StudentGradeManagementApplication.Models
                             queryBuilder.Append(" AND");
                         }
                         queryBuilder.Append(" DiemSV.MaSV LIKE @searchText");
+                        firstCondition = false;
+                    }
+                    if (!string.IsNullOrEmpty(maGV))
+                    {
+                        if (!firstCondition)
+                        {
+                            queryBuilder.Append(" AND");
+                        }
+                        queryBuilder.Append(" GiaoVien.MaGV = @maGV");
                     }
                 }
 
@@ -82,15 +93,24 @@ namespace StudentGradeManagementApplication.Models
                 {
                     command.Parameters.AddWithValue("@searchText", "%" + searchText + "%");
                 }
+                if (!string.IsNullOrEmpty(maGV))
+                {
+                    command.Parameters.AddWithValue("@maGV", maGV);
+                }
 
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 DataTable dataTable = new DataTable();
                 adapter.Fill(dataTable);
 
                 // Add STT and DiemTB columns
-                dataTable.Columns.Add("STT", typeof(int));
-                dataTable.Columns.Add("DiemTB", typeof(double));
-
+                if (!dataTable.Columns.Contains("STT"))
+                {
+                    dataTable.Columns.Add("STT", typeof(int));
+                }
+                if (!dataTable.Columns.Contains("DiemTB"))
+                {
+                    dataTable.Columns.Add("DiemTB", typeof(double));
+                } 
                 int stt = 1;
                 foreach (DataRow row in dataTable.Rows)
                 {
@@ -107,6 +127,58 @@ namespace StudentGradeManagementApplication.Models
             }
         }
 
+        public DataTable GetHocKi(string maGV)
+        {
+            using (SqlConnection connection = dbConnect.GetConnection())
+            {
+                string query = @"
+                            SELECT DISTINCT HocKi.MaHK, HocKi.TenHK 
+                            FROM HocKi
+                            JOIN DiemSV ON HocKi.MaHK = DiemSV.MaHK
+                            JOIN MonHoc ON DiemSV.MaMon = MonHoc.MaMon
+                            WHERE MonHoc.MaGV = @maGV";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@maGV", maGV);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
+                return dataTable;
+            }
+        }
+
+        public DataTable GetMonHoc(string maGV)
+        {
+            using (SqlConnection connection = dbConnect.GetConnection())
+            {
+                string query = "SELECT MaMon, TenMon FROM MonHoc WHERE MaGV = @maGV";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@maGV", maGV);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
+                return dataTable;
+            }
+        }
+
+        public DataTable GetLop(string maGV, string maMon)
+        {
+            using (SqlConnection connection = dbConnect.GetConnection())
+            {
+                string query = @"
+                            SELECT DISTINCT MonHoc.MaLop, Lop.TenLop 
+                            FROM MonHoc
+                            JOIN Lop ON MonHoc.MaLop = Lop.MaLop
+                            WHERE MonHoc.MaGV = @maGV AND MonHoc.MaMon = @maMon";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@maGV", maGV);
+                command.Parameters.AddWithValue("@maMon", maMon);
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
+                return dataTable;
+            }
+        }
+
         public void SaveGrades(DataGridView dataGridView)
         {
             using (SqlConnection connection = dbConnect.GetConnection())
@@ -116,20 +188,20 @@ namespace StudentGradeManagementApplication.Models
                 {
                     if (row.IsNewRow) continue;
 
-                    string maSV = row.Cells["MaSV"].Value.ToString();
-                    string maMon = row.Cells["MaMon"].Value.ToString();
+                    string maSV = row.Cells["MaSV"].Value?.ToString();
+                    string maMon = row.Cells["MaMon"].Value?.ToString();
                     double d1_1 = Convert.IsDBNull(row.Cells["D1_1"].Value) ? 0 : Convert.ToDouble(row.Cells["D1_1"].Value);
                     double d1_2 = Convert.IsDBNull(row.Cells["D1_2"].Value) ? 0 : Convert.ToDouble(row.Cells["D1_2"].Value);
                     double d2_1 = Convert.IsDBNull(row.Cells["D2_1"].Value) ? 0 : Convert.ToDouble(row.Cells["D2_1"].Value);
                     double d2_2 = Convert.IsDBNull(row.Cells["D2_2"].Value) ? 0 : Convert.ToDouble(row.Cells["D2_2"].Value);
 
-                    // Tính điểm trung bình và làm tròn đến 2 chữ số sau dấu phẩy
+                    // Calculate the average score and round to 2 decimal places
                     double diemTB = Math.Round((d1_1 + d1_2 + (d2_1 * 2) + (d2_2 * 3)) / 7, 2);
 
                     string query = @"
-                            UPDATE DiemSV 
-                            SET D1_1 = @D1_1, D1_2 = @D1_2, D2_1 = @D2_1, D2_2 = @D2_2, DiemTB = @DiemTB 
-                            WHERE MaSV = @MaSV AND MaMon = @MaMon";
+                                    UPDATE DiemSV 
+                                    SET D1_1 = @D1_1, D1_2 = @D1_2, D2_1 = @D2_1, D2_2 = @D2_2, DiemTB = @DiemTB 
+                                    WHERE MaSV = @MaSV AND MaMon = @MaMon";
 
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@MaSV", maSV);
@@ -140,7 +212,18 @@ namespace StudentGradeManagementApplication.Models
                     command.Parameters.AddWithValue("@D2_2", d2_2);
                     command.Parameters.AddWithValue("@DiemTB", diemTB);
 
-                    command.ExecuteNonQuery();
+                    try
+                    {
+                        int rowsAffected = command.ExecuteNonQuery();
+                        if (rowsAffected == 0)
+                        {
+                            MessageBox.Show($"No rows updated for student {maSV} in subject {maMon}.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error saving grades for student {maSV} in subject {maMon}: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
