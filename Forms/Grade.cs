@@ -16,14 +16,12 @@ namespace StudentGradeManagementApplication.Forms
     {
         private Connect dbConnect;
         private DiemGV diemGV;
-        private string maGV;
 
         public Grade(string maGV)
         {
             InitializeComponent();
             this.dbConnect = new Connect();
             this.diemGV = new DiemGV();
-            this.maGV = maGV;
             LoadData();
             LoadComboBoxes();
             cbHK.SelectedIndexChanged += CbHK_SelectedIndexChanged;
@@ -35,7 +33,7 @@ namespace StudentGradeManagementApplication.Forms
 
         private void LoadData(string selectedHK = null, string selectedMon = null, string selectedClass = null, string searchText = null)
         {
-            DataTable dataTable = diemGV.GetGrades(selectedHK, selectedMon, selectedClass, searchText, maGV);
+            DataTable dataTable = diemGV.GetGrades(selectedHK, selectedMon, selectedClass, searchText);
 
             // Debugging: Log the data being fetched
             foreach (DataRow row in dataTable.Rows)
@@ -54,18 +52,21 @@ namespace StudentGradeManagementApplication.Forms
             guna2DataGridView1.Columns["HoVaTen"].HeaderText = "Họ Tên";
             guna2DataGridView1.Columns["MaMon"].DisplayIndex = 3;
             guna2DataGridView1.Columns["MaMon"].HeaderText = "Mã Môn";
-            guna2DataGridView1.Columns["MaHK"].DisplayIndex = 4;
-            guna2DataGridView1.Columns["MaHK"].HeaderText = "Tên Môn";
-            guna2DataGridView1.Columns["D1_1"].DisplayIndex = 5;
+            guna2DataGridView1.Columns["TenMon"].DisplayIndex = 4;
+            guna2DataGridView1.Columns["TenMon"].HeaderText = "Tên Môn";
+
+            guna2DataGridView1.Columns["MaHK"].DisplayIndex = 5;
+            guna2DataGridView1.Columns["MaHK"].HeaderText = "Học kì";
+            guna2DataGridView1.Columns["D1_1"].DisplayIndex = 6;
             guna2DataGridView1.Columns["D1_1"].HeaderText = "Điểm hệ số 1";
-            guna2DataGridView1.Columns["D1_2"].DisplayIndex = 6;
+            guna2DataGridView1.Columns["D1_2"].DisplayIndex = 7;
             guna2DataGridView1.Columns["D1_2"].HeaderText = "Điểm hệ số 1";
-            guna2DataGridView1.Columns["D2_1"].DisplayIndex = 7;
+            guna2DataGridView1.Columns["D2_1"].DisplayIndex = 8;
             guna2DataGridView1.Columns["D2_1"].HeaderText = "Điểm hệ số 2";
-            guna2DataGridView1.Columns["D2_2"].DisplayIndex = 8;
+            guna2DataGridView1.Columns["D2_2"].DisplayIndex = 9;
             guna2DataGridView1.Columns["D2_2"].HeaderText = "Điểm hệ số 3";
-            guna2DataGridView1.Columns["DiemTB"].DisplayIndex = 9;
-            guna2DataGridView1.Columns["DiemTB"].HeaderText = "Điểm trung bình";
+            guna2DataGridView1.Columns["DiemTB"].DisplayIndex = 10;
+            guna2DataGridView1.Columns["DiemTB"].HeaderText = "Điểm TB";
         }
 
         private void LoadComboBoxes()
@@ -81,7 +82,7 @@ namespace StudentGradeManagementApplication.Forms
         {
             if (cbMon.SelectedItem is ComboBoxItem selectedMon && cbHK.SelectedItem is ComboBoxItem selectedHK)
             {
-                var lopTable = diemGV.GetLop(maGV, selectedMon.Value);
+                var lopTable = diemGV.GetLop(selectedMon.Value);
                 cbLop.Items.Clear();
 
                 foreach (DataRow row in lopTable.Rows)
@@ -97,7 +98,7 @@ namespace StudentGradeManagementApplication.Forms
 
         private void LoadMonHoc()
         {
-            var monHocTable = diemGV.GetMonHoc(maGV);
+            var monHocTable = diemGV.GetMonHoc();
             var monHocSet = new HashSet<string>();
 
             cbMon.Items.Clear();
@@ -117,7 +118,7 @@ namespace StudentGradeManagementApplication.Forms
         {
             if (cbMon.SelectedItem is ComboBoxItem selectedMon)
             {
-                var hocKiTable = diemGV.GetHocKi(maGV);
+                var hocKiTable = diemGV.GetHocKi();
                 cbHK.Items.Clear();
 
                 foreach (DataRow row in hocKiTable.Rows)

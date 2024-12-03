@@ -21,3 +21,26 @@ E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeMana
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.StudentManagement.resources
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.SubjectManagement.resources
 E:\TTLT.NET\BTL.Net\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Print.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\bin\Debug\StudentGradeManagementApplication.exe.config
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\bin\Debug\StudentGradeManagementApplication.exe
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\bin\Debug\StudentGradeManagementApplication.pdb
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\bin\Debug\Guna.UI2.dll
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.csproj.AssemblyReference.cache
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Grade.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Home.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.HomeTeacher.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.login.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.MenuStudent.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.MenuTeacher.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Print.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Profile.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.ProfileTeacher.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.StudentManagement.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.SubjectManagement.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Forms.Transcript.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.Properties.Resources.resources
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.csproj.GenerateResource.cache
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.csproj.CoreCompileInputs.cache
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentG.1C878A7E.Up2Date
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.exe
+D:\work place\project c sharp\DoAn\BTL12_NET\StudentGradeManagementApplication\obj\Debug\StudentGradeManagementApplication.pdb

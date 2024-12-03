@@ -54,13 +54,13 @@
             this.textBoxSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textBoxSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxSearch.IconLeft = global::StudentGradeManagementApplication.Properties.Resources.icons8_search_100;
-            this.textBoxSearch.Location = new System.Drawing.Point(11, 16);
-            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBoxSearch.Location = new System.Drawing.Point(15, 20);
+            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.PasswordChar = '\0';
             this.textBoxSearch.PlaceholderText = "Search";
             this.textBoxSearch.SelectedText = "";
-            this.textBoxSearch.Size = new System.Drawing.Size(210, 32);
+            this.textBoxSearch.Size = new System.Drawing.Size(280, 39);
             this.textBoxSearch.TabIndex = 12;
             this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
@@ -76,9 +76,10 @@
             this.btnSave.FillColor2 = System.Drawing.Color.SkyBlue;
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSave.ForeColor = System.Drawing.Color.Black;
-            this.btnSave.Location = new System.Drawing.Point(757, 15);
+            this.btnSave.Location = new System.Drawing.Point(1009, 18);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(77, 29);
+            this.btnSave.Size = new System.Drawing.Size(103, 36);
             this.btnSave.TabIndex = 11;
             this.btnSave.Text = "Save";
             this.btnSave.Click += new System.EventHandler(this.BtnSave_Click);
@@ -106,11 +107,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(12, 63);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(16, 78);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(822, 505);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1096, 622);
             this.guna2DataGridView1.TabIndex = 10;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -146,9 +148,10 @@
             this.cbMon.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbMon.ItemHeight = 30;
-            this.cbMon.Location = new System.Drawing.Point(615, 12);
+            this.cbMon.Location = new System.Drawing.Point(820, 15);
+            this.cbMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbMon.Name = "cbMon";
-            this.cbMon.Size = new System.Drawing.Size(127, 36);
+            this.cbMon.Size = new System.Drawing.Size(168, 36);
             this.cbMon.TabIndex = 9;
             this.cbMon.SelectedIndexChanged += new System.EventHandler(this.CbMon_SelectedIndexChanged);
             // 
@@ -164,9 +167,10 @@
             this.cbHK.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbHK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbHK.ItemHeight = 30;
-            this.cbHK.Location = new System.Drawing.Point(483, 12);
+            this.cbHK.Location = new System.Drawing.Point(557, 15);
+            this.cbHK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbHK.Name = "cbHK";
-            this.cbHK.Size = new System.Drawing.Size(127, 36);
+            this.cbHK.Size = new System.Drawing.Size(255, 36);
             this.cbHK.TabIndex = 9;
             this.cbHK.SelectedIndexChanged += new System.EventHandler(this.CbHK_SelectedIndexChanged);
             // 
@@ -182,9 +186,10 @@
             this.cbLop.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbLop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbLop.ItemHeight = 30;
-            this.cbLop.Location = new System.Drawing.Point(350, 12);
+            this.cbLop.Location = new System.Drawing.Point(381, 15);
+            this.cbLop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbLop.Name = "cbLop";
-            this.cbLop.Size = new System.Drawing.Size(127, 36);
+            this.cbLop.Size = new System.Drawing.Size(168, 36);
             this.cbLop.TabIndex = 9;
             this.cbLop.SelectedIndexChanged += new System.EventHandler(this.CbHK_SelectedIndexChanged);
             // 
@@ -200,18 +205,19 @@
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.SkyBlue;
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(769, 574);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(1025, 706);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(65, 22);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(87, 27);
             this.guna2GradientButton1.TabIndex = 13;
             this.guna2GradientButton1.Text = "Print";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // Grade
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(846, 604);
+            this.ClientSize = new System.Drawing.Size(1128, 743);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.btnSave);
@@ -219,6 +225,7 @@
             this.Controls.Add(this.cbLop);
             this.Controls.Add(this.cbHK);
             this.Controls.Add(this.cbMon);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Grade";
             this.Text = "Grade";
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
